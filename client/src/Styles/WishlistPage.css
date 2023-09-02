@@ -1,0 +1,56 @@
+.wishlist-container {
+    margin: 40px;
+  }
+h1 {
+  margin-top: 60px;
+  font-size: 15px;
+  width: 100%;
+  color:rgb(104, 101, 104);
+
+}
+
+h2 {
+  background-color: black;
+  color: aquamarine;
+}
+ 
+  h3 {
+    background-color: white;
+    color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* Increase specificity by using a parent selector */
+.hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 150px;
+}
+
+.card:hover .hover {
+  opacity: 1;
+  height: 200px;
+}
+.button1 {
+  background-color: black;
+  border:none;
+  margin-left: 10px;
+  color: aliceblue;
+  height: 30px;
+  padding: 5px;
+  border-radius: 4px;
+
+  /* Add other border properties as needed */
+}
+.card {
+  width:150px;
+}
+.col-6 {
+  margin-bottom: 20px;
+}

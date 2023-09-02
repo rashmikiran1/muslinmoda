@@ -1,0 +1,17 @@
+
+.row-container {
+  margin-top: 150px;
+}
+
+.cat-btn {
+  /* Default styles */
+  color: #000;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.cat-btn:hover {
+  background-color: rgb(41, 3, 3); 
+  color: #670eed;
+  font-size: larger;
+}

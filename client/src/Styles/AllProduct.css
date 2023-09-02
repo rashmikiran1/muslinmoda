@@ -1,0 +1,101 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  
+}
+
+.sorting {
+  margin-top: 140px;
+}
+
+.home-page h4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+}
+.home-page .card {
+  background-color: rgb(243, 243, 243);
+  border: none; /* Remove the border */
+  border-radius: 0; /* Remove the border radius */
+  box-shadow: none;
+  margin: auto;
+
+
+}
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+
+}
+.home-page h5 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(0, 0, 0);
+}
+.home-page .card-img-top {
+  height: 250px ;
+  border-radius:0;
+  width: 95%;
+  
+}
+ 
+.heart-icon {
+  color: #460707;
+  position: absolute;
+  top:10px;
+  right: 20px;
+}
+
+.card-body {
+  margin-left: 20px;
+}
+
+ /* ==================
+filters
+============== */
+
+.loadmore {
+  color: green;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.home-page .card-body {
+  background-color: white;
+  align-items: center;
+  
+}
+
+.button {
+  color: #a40f0f;
+  border: none;
+  background-color: white;
+}
+
+
+
+.col-6 {
+  position: relative;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.sort-container {
+  margin-left: auto;
+}
+
+/* Add these styles to your existing CSS file or create a new file */
+
+
+
+  

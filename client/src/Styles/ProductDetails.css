@@ -1,0 +1,77 @@
+.btn {
+ height: 50px; 
+ background-color: black;
+ color: brown;
+  
+}
+.product-details {
+  margin-top: 130px;
+
+}
+  
+h5 {
+  font-weight: normal;
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
+}
+
+h6 {
+  font-weight: normal;
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 20px;
+  color: crimson;
+}
+.btn-border {
+  border: 1px solid black;
+  margin-left: 20px;
+  /* Add other border properties as needed */
+}
+
+.size-guide-row {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.size-guide-col {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top:0;
+  margin-left: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.modal-dialog {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0%;
+  
+}
+
+.square-container {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color:wwhite;
+  border: 2px solid burlywood;
+  margin: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.square.selected {
+  background-color: burlywood;
+}
+
+.relatedimage {
+  margin: auto;
+}
